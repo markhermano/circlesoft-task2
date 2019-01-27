@@ -11,7 +11,7 @@ gem 'rails', '~> 5.1.6', '>= 5.1.6.1'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 
-gem 'mysql2'
+gem 'mysql2', '~> 0.5.2'
 
 group :development do
   gem 'capistrano',         require: false
