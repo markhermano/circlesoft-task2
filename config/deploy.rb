@@ -1,8 +1,8 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "circlesoft-task2-ruby-on-rails"
-set :repo_url, "git@github.com:daviuz/circlesoft-task2-ruby-on-rails.git"
+set :application, "circlesoft-task2"
+set :repo_url, "git@github.com:daviuz/circlesoft-task2.git"
 set :user, 'mark'
 set :puma_threads, [4, 16]
 set :puma_workers, 0
